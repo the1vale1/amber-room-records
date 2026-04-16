@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">Amber Room Records social preview</title>
+  <desc id="desc">A warm amber-toned social sharing graphic for Amber Room Records.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#22170f" />
+      <stop offset="55%" stop-color="#120f0c" />
+      <stop offset="100%" stop-color="#0c0a08" />
+    </linearGradient>
+    <radialGradient id="glowA" cx="20%" cy="18%" r="55%">
+      <stop offset="0%" stop-color="#d59a49" stop-opacity="0.45" />
+      <stop offset="100%" stop-color="#d59a49" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="glowB" cx="80%" cy="20%" r="38%">
+      <stop offset="0%" stop-color="#f3c88a" stop-opacity="0.18" />
+      <stop offset="100%" stop-color="#f3c88a" stop-opacity="0" />
+    </radialGradient>
+    <linearGradient id="panel" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3b2819" stop-opacity="0.92" />
+      <stop offset="100%" stop-color="#17100b" stop-opacity="0.94" />
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bg)" />
+  <rect width="1200" height="630" fill="url(#glowA)" />
+  <rect width="1200" height="630" fill="url(#glowB)" />
+
+  <g opacity="0.1" stroke="#f7efe3">
+    <path d="M0 86.5H1200" />
+    <path d="M0 173.5H1200" />
+    <path d="M0 260.5H1200" />
+    <path d="M0 347.5H1200" />
+    <path d="M0 434.5H1200" />
+    <path d="M0 521.5H1200" />
+    <path d="M109.5 0V630" />
+    <path d="M218.5 0V630" />
+    <path d="M327.5 0V630" />
+    <path d="M436.5 0V630" />
+    <path d="M545.5 0V630" />
+    <path d="M654.5 0V630" />
+    <path d="M763.5 0V630" />
+    <path d="M872.5 0V630" />
+    <path d="M981.5 0V630" />
+    <path d="M1090.5 0V630" />
+  </g>
+
+  <g>
+    <rect x="80" y="70" width="1040" height="490" rx="34" fill="url(#panel)" stroke="#6a4a27" stroke-opacity="0.45" />
+    <rect x="116" y="108" width="92" height="92" rx="46" fill="none" stroke="#d59a49" stroke-width="2" />
+    <text x="162" y="164" fill="#f7efe3" font-family="Georgia, serif" font-size="32" text-anchor="middle" letter-spacing="6">ARR</text>
+
+    <text x="116" y="252" fill="#f3c88a" font-family="Arial, sans-serif" font-size="20" letter-spacing="5">INDEPENDENT LABEL • DETROIT / EVERYWHERE</text>
+    <text x="116" y="342" fill="#f7efe3" font-family="Georgia, serif" font-size="70">Amber Room Records</text>
+    <text x="116" y="408" fill="#d7c2a8" font-family="Arial, sans-serif" font-size="32">
+      Music for after-hours rooms, long drives, and glowing city edges.
+    </text>
+
+    <g transform="translate(765 142)">
+      <rect width="270" height="320" rx="28" fill="#22160f" stroke="#8a6337" stroke-opacity="0.55" />
+      <text x="34" y="52" fill="#f3c88a" font-family="Arial, sans-serif" font-size="17" letter-spacing="4">FEATURED RELEASE</text>
+      <text x="34" y="124" fill="#f7efe3" font-family="Georgia, serif" font-size="54">Glass</text>
+      <text x="34" y="174" fill="#f7efe3" font-family="Georgia, serif" font-size="54">Lobby</text>
+      <text x="34" y="216" fill="#d7c2a8" font-family="Arial, sans-serif" font-size="24">Nova Vale • LP • Out Now</text>
+      <line x1="34" y1="245" x2="236" y2="245" stroke="#f7efe3" stroke-opacity="0.15" />
+      <text x="34" y="280" fill="#f7efe3" font-family="Arial, sans-serif" font-size="20">01 Mirage Receiver</text>
+      <text x="34" y="310" fill="#f7efe3" font-family="Arial, sans-serif" font-size="20">02 Bronze Hour</text>
+      <text x="34" y="340" fill="#f7efe3" font-family="Arial, sans-serif" font-size="20">03 Marble Static</text>
+      <text x="34" y="370" fill="#f7efe3" font-family="Arial, sans-serif" font-size="20">04 Luminous Exit</text>
+    </g>
+  </g>
+</svg>
