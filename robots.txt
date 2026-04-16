@@ -1,2 +1,3 @@
 User-agent: *
 Allow: /
+Sitemap: https://the1vale1.github.io/amber-room-records/sitemap.xml
