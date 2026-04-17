@@ -184,6 +184,14 @@ p {
   font-size: 0.98rem;
 }
 
+.hero-logo {
+  display: block;
+  width: min(100%, 20rem);
+  margin: 0 0 1.5rem;
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow);
+}
+
 .hero-actions {
   display: flex;
   flex-wrap: wrap;
@@ -502,6 +510,10 @@ input::placeholder {
 @media (max-width: 640px) {
   .hero {
     padding-top: 3.5rem;
+  }
+
+  .hero-logo {
+    width: min(100%, 15rem);
   }
 
   .hero-card,
