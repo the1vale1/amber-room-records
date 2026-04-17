@@ -26,9 +26,9 @@ body {
   font-family: "Space Grotesk", sans-serif;
   color: var(--text);
   background:
-    radial-gradient(circle at top left, rgba(213, 152, 82, 0.22), transparent 28%),
-    radial-gradient(circle at 80% 20%, rgba(255, 161, 55, 0.12), transparent 24%),
-    linear-gradient(180deg, #806f5c 0%, #55514b 32%, #332d26 100%);
+    radial-gradient(circle at top left, rgba(213, 152, 82, 0.18), transparent 24%),
+    radial-gradient(circle at 80% 20%, rgba(255, 161, 55, 0.08), transparent 20%),
+    linear-gradient(180deg, #55514b 0%, #332d26 24%, #332d26 100%);
 }
 
 body::before {
@@ -63,6 +63,7 @@ a {
   justify-content: space-between;
   gap: 1rem;
   padding: 1.1rem 0;
+  background: linear-gradient(180deg, rgba(51, 45, 38, 0.92), rgba(51, 45, 38, 0.42));
   backdrop-filter: blur(18px);
 }
 
@@ -73,16 +74,13 @@ a {
   text-decoration: none;
 }
 
-.brand-mark {
-  display: grid;
-  place-items: center;
-  width: 2.6rem;
-  height: 2.6rem;
+.brand-logo {
+  display: block;
+  width: 3rem;
+  height: auto;
   border: 1px solid var(--border);
-  border-radius: 999px;
-  background: rgba(128, 111, 92, 0.22);
-  font-size: 0.8rem;
-  letter-spacing: 0.2em;
+  background: #ffa137;
+  box-shadow: var(--shadow);
 }
 
 .brand-text,
@@ -207,7 +205,7 @@ p {
 }
 
 .button-secondary {
-  background: rgba(85, 81, 75, 0.32);
+  background: rgba(51, 45, 38, 0.7);
 }
 
 .hero-panel {
@@ -222,7 +220,7 @@ p {
 .contact-card {
   border: 1px solid var(--border);
   border-radius: 1.7rem;
-  background: linear-gradient(180deg, var(--panel), var(--bg));
+  background: linear-gradient(180deg, rgba(85, 81, 75, 0.72), rgba(51, 45, 38, 0.96));
   box-shadow: var(--shadow);
 }
 
@@ -233,8 +231,8 @@ p {
 .now-playing {
   min-height: 22rem;
   background:
-    linear-gradient(180deg, rgba(255, 161, 55, 0.18), transparent 55%),
-    linear-gradient(180deg, #806f5c, #332d26);
+    linear-gradient(180deg, rgba(255, 161, 55, 0.14), transparent 55%),
+    linear-gradient(180deg, #55514b, #332d26);
 }
 
 .card-label,
@@ -267,7 +265,7 @@ p {
   display: grid;
   gap: 1rem;
   grid-template-columns: repeat(3, 1fr);
-  background: linear-gradient(180deg, var(--panel-strong), var(--bg));
+  background: linear-gradient(180deg, rgba(85, 81, 75, 0.5), rgba(51, 45, 38, 0.96));
 }
 
 .stat-value {
@@ -348,7 +346,7 @@ input {
   padding: 0.8rem 1rem;
   border: 1px solid var(--border);
   border-radius: 999px;
-  background: rgba(85, 81, 75, 0.32);
+  background: rgba(51, 45, 38, 0.72);
   color: var(--text);
 }
 
@@ -392,6 +390,10 @@ input::placeholder {
 
   .site-header {
     flex-wrap: wrap;
+  }
+
+  .brand-logo {
+    width: 2.6rem;
   }
 
   .menu-toggle {
