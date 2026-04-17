@@ -49,7 +49,7 @@ a {
 
 .page-shell {
   position: relative;
-  width: min(calc(100% - 2rem), var(--max-width));
+  width: 100%;
   margin: 0 auto;
   padding-bottom: 4rem;
 }
@@ -62,7 +62,8 @@ a {
   align-items: center;
   justify-content: space-between;
   gap: 1rem;
-  padding: 1.1rem 0;
+  width: 100%;
+  padding: 1.1rem 1.5rem;
   background: linear-gradient(180deg, rgba(51, 45, 38, 0.92), rgba(51, 45, 38, 0.42));
   backdrop-filter: blur(18px);
 }
@@ -128,6 +129,15 @@ button {
   gap: 2rem;
   align-items: center;
   padding: 5rem 0 4rem;
+}
+
+.hero,
+.section-grid,
+.artists,
+.releases,
+.contact {
+  width: min(calc(100% - 2rem), var(--max-width));
+  margin: 0 auto;
 }
 
 .eyebrow {
@@ -235,6 +245,15 @@ p {
     linear-gradient(180deg, #55514b, #332d26);
 }
 
+.release-cover {
+  display: block;
+  width: 100%;
+  max-width: 19rem;
+  margin-top: 1.5rem;
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow);
+}
+
 .card-label,
 .release-format,
 .artist-type,
@@ -330,6 +349,11 @@ section {
   padding: 1.5rem;
 }
 
+.release-cover-large {
+  max-width: 100%;
+  margin-top: 0;
+}
+
 .contact-grid {
   margin-top: 2rem;
 }
@@ -390,6 +414,7 @@ input::placeholder {
 
   .site-header {
     flex-wrap: wrap;
+    padding-inline: 1rem;
   }
 
   .brand-logo {
@@ -417,10 +442,6 @@ input::placeholder {
 }
 
 @media (max-width: 640px) {
-  .page-shell {
-    width: min(calc(100% - 1.25rem), var(--max-width));
-  }
-
   .hero {
     padding-top: 3.5rem;
   }
