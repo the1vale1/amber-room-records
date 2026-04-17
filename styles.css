@@ -8,7 +8,8 @@
   --accent: #ffa137;
   --accent-soft: #d59852;
   --border: #806f5c;
-  --heading-font: "sisters-two", "Cormorant Garamond", serif;
+  --heading-font: "warbler-banner", "Cormorant Garamond", serif;
+  --body-font: "warbler-deck", "Space Grotesk", sans-serif;
   --shadow: 0 24px 80px rgba(51, 45, 38, 0.38);
   --max-width: 1180px;
 }
@@ -24,7 +25,7 @@ html {
 body {
   margin: 0;
   min-height: 100vh;
-  font-family: "Space Grotesk", sans-serif;
+  font-family: var(--body-font);
   color: var(--text);
   background:
     radial-gradient(circle at top left, rgba(213, 152, 82, 0.18), transparent 24%),
@@ -90,7 +91,7 @@ a {
 .button,
 input,
 button {
-  font-family: inherit;
+  font-family: var(--body-font);
 }
 
 .brand-text {
@@ -154,7 +155,7 @@ h2,
 h3 {
   margin: 0;
   font-family: var(--heading-font);
-  font-weight: 200;
+  font-weight: 700;
   line-height: 0.95;
 }
 
