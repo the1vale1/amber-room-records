@@ -248,7 +248,7 @@ p {
 .release-cover {
   display: block;
   width: 100%;
-  max-width: 19rem;
+  max-width: 12rem;
   margin-top: 1.5rem;
   border: 1px solid var(--border);
   box-shadow: var(--shadow);
@@ -350,7 +350,7 @@ section {
 }
 
 .release-cover-large {
-  max-width: 100%;
+  max-width: 14rem;
   margin-top: 0;
 }
 
